@@ -14,10 +14,6 @@ body {
   max-height: 100vh;
 }
 
-/* main {
-  height: fit-content;
-} */
-
 .container {
   padding: 45px;
   display: flex;
@@ -39,7 +35,6 @@ body {
 
 .mockup-img {
   max-inline-size: 100%;
-  /* margin: 80px 0 80px 0; */
 }
 
 .heading {
@@ -58,7 +53,6 @@ body {
   font-family: "Open Sans";
   font-size: 0.94rem;
   font-weight: 400;
-  /* padding: 15px; */
   line-height: 1.5;
 }
 
@@ -80,7 +74,7 @@ body {
 }
 
 .socials {
-  margin-top: 60px;
+  margin-top: 75px;
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -134,7 +128,6 @@ body {
   }
   .mockup-img {
     max-inline-size: 45vw;
-    /* margin: 0; */
   }
   .text {
     transform: translate(-130px, 135px);
