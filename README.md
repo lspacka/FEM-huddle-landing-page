@@ -1,1 +1,1 @@
-Social media icons by [Stockio]("https://www.flaticon.com/authors/stockio)
+Social media icons by [Stockio](https://www.flaticon.com/authors/stockio)

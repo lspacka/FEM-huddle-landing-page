@@ -32,9 +32,14 @@ body {
   height: 2.2rem;
 }
 
+.img-container {
+  height: fit-content;
+  margin: 80px 0 80px 0;
+}
+
 .mockup-img {
   max-inline-size: 100%;
-  margin: 80px 0 80px 0;
+  /* margin: 80px 0 80px 0; */
 }
 
 .heading {
@@ -80,6 +85,7 @@ body {
   justify-content: center;
   list-style-type: none;
   height: fit-content;
+  transform: translateY(-50px);
 }
 
 .link {
@@ -88,13 +94,13 @@ body {
 }
 
 .link > img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 
 .link > img:hover {
   cursor: pointer;
-  filter:        /* shout out to cssfilterconverter.com */
+  filter:             /* shout out to cssfilterconverter.com */
     brightness(0) 
     saturate(100%) 
     invert(72%) 
@@ -116,21 +122,47 @@ body {
   .container {
     flex-direction: row;
     margin: 0;
-    /* justify-content: baseline; */
+    padding-left: 55px;
+  }
+  .logo {
+    height: 2.9rem;
   }
   .img-container {
-    transform: translateX(-140px);
+    transform: translate(-185px, 100px);
     height: fit-content;
+    margin: 0;
   }
   .mockup-img {
     max-inline-size: 45vw;
     /* margin: 0; */
   }
   .text {
-    transform: translateY(130px);
+    transform: translate(-130px, 135px);
     text-align: left;
   }
+  .heading {
+    font-size: 1.9rem;
+    padding-right: 10px;
+  }
+  .paragraph {
+    font-size: 0.91rem;
+    margin: 19px 0 21px 0;
+  }
+  .button {
+    width: 38%;
+    height: 45px; 
+    font-size: 0.83rem;
+  }
   .socials {
-    transform: translate(0, 400px);
+    transform: translate(1030px, 50px);
+    margin: 0;
+    width: fit-content;
+  }
+  .link {
+    margin-right: 17px;
+  }
+  .link > img {
+    width: 45px;
+    height: 45px;
   }
 }
